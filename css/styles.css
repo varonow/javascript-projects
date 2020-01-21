@@ -14,7 +14,17 @@ body {
     cursor: pointer;
 }
 
-p {
+.calculate {
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.center {
     text-align: center;
-    font-weight: bold;
+}
+
+.bold {
+    font-weight: 900;
 }
