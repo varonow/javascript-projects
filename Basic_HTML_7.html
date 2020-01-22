@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Lesson 7</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- Scope practice -->
+        <p>The global variable is: <span id="global_variable"></span></p>
+        <p>The local variable is: <span id="local_variable"></span></p>
+        <!-- <p>Trying to access the local variable globally: <span id="local_error"></span></p> -->
+    
+        <!-- conditional time greeting -->
+        <p id="greeting" onclick="greeting()">Click Me!</p>
+
+        <!-- conditional statement -->
+        <p id="pass_fail" onclick="passFail()">Click Me!</p>
+
+        <!-- Write a <p> element providing the user with instructions. 
+             Write an <input> element that contains an id attribute.
+             Write a <p> element that contains an id attribute. -->
+        <p>Enter your age below and press go:</p>
+        <input type="number" id="user_age" min="1" max="120" size="3"> &nbsp; <button onclick="canDrink()">Go</button>
+        <p id="message"></p>
+        
+        <!-- Write out all code from the previous course step and successfully
+            execute it in the browser. -->
+        <p id="Time_of_day">
+            <button onclick="Time_function()">Click here to get the time</button>
+        </p>
+
+
+        <script src="js/basic_javascript_7.js"></script>
+    </body>
+</html>
